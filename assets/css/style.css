@@ -1,0 +1,30 @@
+/* Common */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Debug */
+
+/* Header */
+
+.debug .container-fluid {
+    background-color: darkslateblue;
+    height: 80px;
+}
+
+.debug header .menu_left {
+    background-color: aqua;
+    height: 40px;
+    width: 80px;
+}
+
+.debug header .menu_right {
+    background-color: aqua;
+    height: 40px;
+    width: 50px;
+}
+
+/*Header */
