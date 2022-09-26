@@ -21,13 +21,27 @@
     width: 80px;
 }
 
-.debug header .menu_right {
+.debug header .menu_right_sm {
     background-color: aqua;
     height: 40px;
     width: 50px;
 }
 
+.debug header .menu_right_md {
+    background-color: aqua;
+    height: 40px;
+    width: 100px;
+}
+
+.debug header .menu_right_lg {
+    background-color: aqua;
+    height: 40px;
+    width: 100px;
+}
+
 /* Main */
+
+/* Start Bootstrap */
 
 .debug .start_bootstrap .container-fluid  {
     background-color: green;
@@ -50,4 +64,12 @@
     background-color: brown;
     height: 30px;
     width: 200px;
+}
+
+/* Portfolio */
+
+/* Header */
+
+.menu_right_md, .menu_right_lg {
+    display: none;
 }
