@@ -99,6 +99,33 @@
     width: 100px;
 }
 
+/* Contact Me */
+
+.debug .contact_me .title {
+    background-color: pink;
+    height: 120px;
+    width: 180px;
+}
+
+.debug .contact_me .form {
+    background-color: lightsalmon;
+    height: 350px;
+    width: 400px;
+}
+
+/* Footer */
+
+.debug .footer_top {
+    background-color: grey;
+    height: 300px;
+    width: 100%;
+}
+
+.debug .footer_bottom {
+    background-color: darkgrey;
+    height: 100px;
+}
+
 /* Header */
 
 .menu_right_md, .menu_right_lg {
