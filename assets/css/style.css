@@ -80,6 +80,25 @@
     border: 1px solid black;
 }
 
+/* About */
+
+.debug .about .container-fluid  {
+    background-color: green;
+    height: 450px;
+}
+
+.debug .about .title {
+    background-color: orange;
+    height: 120px;
+    width: 180px;
+}
+
+.debug .about .bt {
+    background-color: darkmagenta;
+    height: 50px;
+    width: 100px;
+}
+
 /* Header */
 
 .menu_right_md, .menu_right_lg {
