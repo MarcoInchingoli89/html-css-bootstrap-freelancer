@@ -27,4 +27,27 @@
     width: 50px;
 }
 
-/*Header */
+/* Main */
+
+.debug .start_bootstrap .container-fluid  {
+    background-color: green;
+    height: 500px;
+}
+
+.debug .avatar {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+}
+
+.debug .title {
+    background-color: blueviolet;
+    height: 120px;
+    width: 180px;
+}
+
+.debug .job {
+    background-color: brown;
+    height: 30px;
+    width: 200px;
+}
