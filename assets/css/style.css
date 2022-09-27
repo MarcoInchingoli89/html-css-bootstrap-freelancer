@@ -30,7 +30,7 @@
 
 /* Start Bootstrap */
 
-.debug .start_bootstrap .container-fluid  {
+/* .debug .start_bootstrap .container-fluid  {
     background-color: green;
     height: 500px;
 }
@@ -51,7 +51,7 @@
     background-color: brown;
     height: 30px;
     width: 200px;
-}
+} */
 
 /* Portfolio */
 
@@ -125,4 +125,26 @@ header .navbar a {
 
 header .navbar .navbar-toggler {
     color: var(--iconb--);
+}
+
+/* Main */
+
+.jumbotron {
+    background-color: var(--primary--);
+}
+
+.jumbotron .title {
+    color: var(--bgwhite--);
+}
+
+.jumbotron .border_star {
+    gap: 0.4rem;
+}
+
+.jumbotron .title .border_star .border-bottom {
+    width: 4rem;
+}
+
+.jumbotron .job span {
+    color: var(--bgwhite--);
 }
