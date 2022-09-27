@@ -9,51 +9,15 @@
 /* Colors Palette */
 
 :root {
-    --bank--: #0E38B5;
     --dark--: #140F0F;
     --primary--: #1ABC9C;
-    --cake--: #1C83C1;
-    --joypad--: #1EA4B6;
     --secondary-dark--: #2C3E50;
     --secondary--: #3A546D;
-    --house--: #BA4B63;
-    --submarine--: #CCB2A3;
     --bgwhite--: #FFFFFF;
     --iconb--: #616E7B;
     --iconc--: #777B7E;
 
 }
-
-/* Debug */
-
-/* Main */
-
-/* Contact Me */
-
-/* .debug .contact_me .title {
-    background-color: pink;
-    height: 120px;
-    width: 180px;
-}
-
-.debug .contact_me .form {
-    background-color: lightsalmon;
-    height: 350px;
-    width: 400px;
-} */
-
-/* Footer */
-
-/* .debug .footer_top {
-    background-color: grey;
-    height: 300px;
-    width: 100%;
-}
-
-.debug .footer_bottom {
-    background-color: darkgrey;
-    height: 100px;
-} */
 
 /* Header */
 
@@ -108,6 +72,29 @@ header .navbar .navbar-toggler {
 .contact_me .container {
     padding: 0 6rem;
 }
+
+/* Footer */
+
+.bg_footer_top {
+    background-color: var(--secondary--) ;
+}
+
+.footer_top a {
+    color: var(--primary--);
+}
+
+.bg_footer_bottom {
+    background-color: var(--secondary-dark--) ;
+}
+
+.footer_top .icons div {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Utility */
 
 .border_star {
