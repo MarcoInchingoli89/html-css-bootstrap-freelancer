@@ -114,24 +114,30 @@ header .navbar .navbar-toggler {
     color: var(--bgwhite--);
 }
 
-.jumbotron .border_star {
-    gap: 0.4rem;
-}
-
-.jumbotron .title .border_star .border-bottom {
-    width: 4rem;
-}
-
 .jumbotron .job span {
     color: var(--bgwhite--);
 }
 
-/* Portfolio */
+/* About */
 
-.portfolio .border_star {
+.bg_about {
+    background-color: var(--primary--);
+}
+
+.about .container {
+    padding: 0 6rem;
+}
+
+.about .title {
+    color: var(--bgwhite--);
+}
+
+/* Utility */
+
+.border_star {
     gap: 0.4rem;
 }
 
-.portfolio .title .border_star .border-bottom {
+.border-bottom {
     width: 4rem;
 }
