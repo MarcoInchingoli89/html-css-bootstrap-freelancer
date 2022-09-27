@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+/* Colors Palette */
+
+:root {
+    --bank--: #0E38B5;
+    --dark--: #140F0F;
+    --primary--: #1ABC9C;
+    --cake--: #1C83C1;
+    --joypad--: #1EA4B6;
+    --secondary-dark--: #2C3E50;
+    --secondary--: #3A546D;
+    --house--: #BA4B63;
+    --submarine--: #CCB2A3;
+    --bgwhite--: #FFFFFF;
+}
+
 /* Debug */
 
 /* Header */
