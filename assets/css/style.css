@@ -28,38 +28,13 @@
 
 /* Main */
 
-/* Start Bootstrap */
-
-/* .debug .start_bootstrap .container-fluid  {
-    background-color: green;
-    height: 500px;
-}
-
-.debug .avatar {
-    background-color: blue;
-    height: 150px;
-    width: 150px;
-}
-
-.debug header .title {
-    background-color: blueviolet;
-    height: 120px;
-    width: 180px;
-}
-
-.debug .job {
-    background-color: brown;
-    height: 30px;
-    width: 200px;
-} */
-
 /* Portfolio */
 
-.debug .portfolio .title {
+/* .debug .portfolio .title {
     background-color: burlywood;
     height: 120px;
     width: 180px;
-}
+} */
 
 /* .debug [class^="col"] {
     background-color: red;
@@ -69,7 +44,7 @@
 
 /* About */
 
-.debug .about .container-fluid  {
+/* .debug .about .container-fluid  {
     background-color: green;
     height: 450px;
 }
@@ -84,7 +59,7 @@
     background-color: darkmagenta;
     height: 50px;
     width: 100px;
-}
+} */
 
 /* Contact Me */
 
@@ -129,6 +104,8 @@ header .navbar .navbar-toggler {
 
 /* Main */
 
+/* Jumbotron */
+
 .jumbotron {
     background-color: var(--primary--);
 }
@@ -147,4 +124,14 @@ header .navbar .navbar-toggler {
 
 .jumbotron .job span {
     color: var(--bgwhite--);
+}
+
+/* Portfolio */
+
+.portfolio .border_star {
+    gap: 0.4rem;
+}
+
+.portfolio .title .border_star .border-bottom {
+    width: 4rem;
 }
